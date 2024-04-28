@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css';
+import './index.min.css';
 import ParticlesComponent from './Components/ParticlesComponent';
 import NavbarComponnent from './Components/NavbarComponent';
 

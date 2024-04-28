@@ -13,7 +13,7 @@ export default function ProjectComponent(props) {
       <div className={`project-wrapper ${props.className}`}>
         <div className="about-project">
           <div className="project-title">{props.projectTitle}</div>
-          <div className="desc">{props.projectDesc}</div>
+          <div className="desc" style={{ textAlign: 'justify' }}>{props.projectDesc}</div>
           <button className='btn' onClick={handleOnClick}><span>View on<FiGithub className="social" size={20} style={{ marginLeft: "8px", position: "relative", top: "2px", strokeWidth: "3" }}/></span><FaArrowRight className='btn-arrow' size={22} style={{marginLeft: "1rem"}}/></button>
         </div>
         <Tilt className="project-img" gyroscope= {true} >

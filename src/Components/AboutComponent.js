@@ -4,7 +4,7 @@ import myProfile from "../Images/profile-image2.jpg.jpg";
 export default function AboutComponent({ id }) {
   return (
     <div className="about-container" id={id}>
-      <div className="aboutMe-text">
+      <div className="aboutMe-text"  style={{ textAlign: 'justify' }}>
         <h3>Hey there, 👋</h3>
         I'm <span> Keval </span>, a final year student pursuing <span>Bechlore of Computer Engineering </span> from Darshan University, Rajkot. I am
         Proficient in backend technologies, I excel in architecting solutions that translate end-user challenges into intuitive <span>APIs</span>, seamlessly integrating them for enhanced functionality. My expertise extends to <span>database</span> management, ensuring efficient data handling and retrieval, complemented by a keen understanding of frontend technologies for a comprehensive development approach.

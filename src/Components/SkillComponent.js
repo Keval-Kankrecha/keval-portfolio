@@ -12,7 +12,7 @@ const SkilComponent = ({id}) => {
         <div className="skill-container" id={id}>
             <div className="skill-header">My Skills</div>
             <div className="skill-box">
-                <h2>Languages</h2>
+                <h2 style={{ textAlign: 'center' }}>Languages</h2>
                 <div className="skillset">
                     <abbr title='Java'><FaJava className='techLogo' /></abbr>
                     <abbr title='HTML 5'><TbBrandHtml5 className='techLogo' /></abbr>
@@ -21,7 +21,7 @@ const SkilComponent = ({id}) => {
                 </div>
             </div>
             <div className="skill-box">
-                <h2>Libraries and Frameworks</h2>
+                <h2 style={{ textAlign: 'center' }}>Libraries and Frameworks</h2>
                 <div className="skillset">
                     <abbr title='NPM'><IoLogoNpm className='techLogo' /></abbr>
                     <abbr title='NodeJs'><TbBrandNodejs className='techLogo' /></abbr>
@@ -32,7 +32,7 @@ const SkilComponent = ({id}) => {
                 </div>
             </div>
             <div className="skill-box">
-                <h2>Tools & Systems</h2>
+                <h2 style={{ textAlign: 'center' }}>Tools & Systems</h2>
                 <div className="skillset">
                     <abbr title='Git/Github'><DiGit className='techLogo' /></abbr>
                     <abbr title='Visual Studio Code'><SiVisualstudiocode className='techLogo' /></abbr>

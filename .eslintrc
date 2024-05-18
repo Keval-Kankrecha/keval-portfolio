@@ -1,6 +1,0 @@
-{
-    "CI": false,
-    "rules": {
-      "no-unused-vars": "warn"
-    }
-  }

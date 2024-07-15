@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.min.css';
-import ParticlesComponent from './Components/ParticlesComponent';
 import NavbarComponnent from './Components/NavbarComponent';
 
 import AnimatedCursor from "react-animated-cursor"
@@ -29,9 +28,7 @@ const App = () => {
           backgroundColor: '#F94892'
         }}
       />
-      <div className="App"> <div className="particles-background">
-        <ParticlesComponent id="particles" />
-      </div>
+   
         <NavbarComponnent />
         <HeaderComponent />
         <AboutComponent id="about"/>
@@ -54,7 +51,6 @@ const App = () => {
         />
         <ContactFormComponent id="contact"/>
         <FooterComponent />
-      </div>
     </>
 
   );

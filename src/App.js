@@ -34,15 +34,6 @@ const App = () => {
         <AboutComponent id="about"/>
         <SkilComponent id="skill"/>
         <ProjectComponent
-          id="project"
-          className="odd"
-          projectTitle="Aayush Hospital"
-          projectDesc="By this Web-Application Patients can view various details of hospital like available specialization, doctor, resources.Patients can book appointment for specific doctor and view status for booked appointment, view/upload their medical report.Receptionist manage upcoming appointments and view report uploaded by user."
-          projectLink="https://github.com/KevalKankrecha-2/MERN-Hospital/tree/development"
-          deployedProjectLink="#"
-          projectImg={require('./Images/ProjectHospital.png')}
-        />
-        <ProjectComponent
           projectTitle="Yogi Nagar Yuvak Madal"
           projectDesc="Through this web application, the admin can efficiently manage participants and various Sabha details, including present participants and activities conducted during the event. Admins have the flexibility to view Sabha details based on their specific requirements."
           projectLink="https://github.com/KevalKankrecha-2/YOGINAGARYUVAK-MANDAL"

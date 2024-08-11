@@ -5,6 +5,7 @@ import { TbBrandJavascript, TbBrandHtml5, TbBrandNodejs } from 'react-icons/tb';
 import { IoLogoNpm } from 'react-icons/io';
 import { FaJava } from 'react-icons/fa6';
 import { BsFiletypeCss } from 'react-icons/bs';
+import { FaPython } from "react-icons/fa";
 
 
 const SkilComponent = ({id}) => {
@@ -15,18 +16,18 @@ const SkilComponent = ({id}) => {
                 <h2 style={{ textAlign: 'center' }}>Languages</h2>
                 <div className="skillset">
                     <abbr title='Java'><FaJava className='techLogo' /></abbr>
-                    <abbr title='HTML 5'><TbBrandHtml5 className='techLogo' /></abbr>
+                    <abbr title='Python'><FaPython className='techLogo' /></abbr>
                     <abbr title='JavaScript'><TbBrandJavascript className='techLogo' /></abbr>
+                    <abbr title='HTML 5'><TbBrandHtml5 className='techLogo' /></abbr>
                     <abbr title='CSS'><BsFiletypeCss className='techLogo' /></abbr>
                 </div>
             </div>
             <div className="skill-box">
-                <h2 style={{ textAlign: 'center' }}>Libraries and Frameworks</h2>
+                <h2 style={{ textAlign: 'center' }}>Frameworks & Databases</h2>
                 <div className="skillset">
-                    <abbr title='NPM'><IoLogoNpm className='techLogo' /></abbr>
                     <abbr title='NodeJs'><TbBrandNodejs className='techLogo' /></abbr>
-                    <abbr title='ReactJS'><SiReact className='techLogo' /></abbr>
                     <abbr title='NestJs'><SiNestjs className='techLogo' /></abbr>
+                    <abbr title='ReactJS'><SiReact className='techLogo' /></abbr>
                     <abbr title='MySQL'><SiMysql className='techLogo' /></abbr>
                     <abbr title='MySQL'><SiMongodb className='techLogo' /></abbr>
                 </div>

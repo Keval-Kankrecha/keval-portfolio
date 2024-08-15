@@ -12,7 +12,7 @@ export default function AboutComponent({ id }) {
         Beyond my coding expertise, I am deeply spiritual, following the path of <span>Hinduism and Sanatan</span> Dharma, and actively volunteering at <span>BAPS</span> for the past few years. I hold a profound admiration for <span>Mahakal</span>, finding solace and inspiration in his divine essence. Want to know more about me? Feel free to <a className='resume' href="#" target="_blank" rel="noopener noreferrer">explore my resume.</a>
       </div>
       <div className="profile-photo">
-        <img className="img" src={myProfile} alt="Profile"></img>
+        <img className="img" src={myProfile} alt="Profile" style={{borderRadius: "25px"}}></img>
       </div>
     </div>
   );

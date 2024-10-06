@@ -36,7 +36,7 @@ const SkilComponent = ({id}) => {
                 <h2 style={{ textAlign: 'center' }}>Tools & Systems</h2>
                 <div className="skillset">
                     <abbr title='Git/Github'><DiGit className='techLogo' /></abbr>
-                    <abbr title='Clickup'><FaDocker  className='techLogo' /></abbr>
+                    <abbr title='Docker'><FaDocker  className='techLogo' /></abbr>
                     <abbr title='Visual Studio Code'><SiVisualstudiocode className='techLogo' /></abbr>
                     <abbr title='Jira'><SiJira className='techLogo' /></abbr>
                     <abbr title='Clickup'><SiClickup className='techLogo' /></abbr>

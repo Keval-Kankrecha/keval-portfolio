@@ -2,10 +2,9 @@ import React from 'react';
 import { DiGit } from 'react-icons/di';
 import { SiVisualstudiocode, SiReact, SiNestjs, SiMysql, SiMongodb, SiJira, SiClickup   } from 'react-icons/si';
 import { TbBrandJavascript, TbBrandHtml5, TbBrandNodejs } from 'react-icons/tb';
-import { FaDocker } from "react-icons/fa";
+import { FaDocker, FaPython, FaEthereum } from "react-icons/fa";
 import { FaJava } from 'react-icons/fa6';
 import { BsFiletypeCss } from 'react-icons/bs';
-import { FaPython } from "react-icons/fa";
 
 
 const SkilComponent = ({id}) => {
@@ -37,7 +36,7 @@ const SkilComponent = ({id}) => {
                 <div className="skillset">
                     <abbr title='Git/Github'><DiGit className='techLogo' /></abbr>
                     <abbr title='Docker'><FaDocker  className='techLogo' /></abbr>
-                    <abbr title='Visual Studio Code'><SiVisualstudiocode className='techLogo' /></abbr>
+                    <abbr title='Visual Studio Code'><FaEthereum className='techLogo' /></abbr>
                     <abbr title='Jira'><SiJira className='techLogo' /></abbr>
                     <abbr title='Clickup'><SiClickup className='techLogo' /></abbr>
                 </div>

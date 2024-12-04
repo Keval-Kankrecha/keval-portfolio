@@ -28,18 +28,17 @@ const App = () => {
           backgroundColor: '#F94892'
         }}
       />
-   
         <NavbarComponnent />
         <HeaderComponent />
         <AboutComponent id="about"/>
         <SkilComponent id="skill"/>
-        <ProjectComponent
+        {/* <ProjectComponent
           projectTitle="Yogi Nagar Yuvak Madal"
           projectDesc="Through this web application, the admin can efficiently manage participants and various Sabha details, including present participants and activities conducted during the event. Admins have the flexibility to view Sabha details based on their specific requirements."
           projectLink="https://github.com/KevalKankrecha-2/YOGINAGARYUVAK-MANDAL"
           deployedProjectLink="#"
           projectImg={require('./Images/ProjectYoginagarYuvakMandal.png')}
-        />
+        /> */}
         <ContactFormComponent id="contact"/>
         <FooterComponent />
     </>

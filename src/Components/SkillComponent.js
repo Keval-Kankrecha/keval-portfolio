@@ -36,8 +36,6 @@ const SkilComponent = ({id}) => {
                 <div className="skillset">
                     <abbr title='Git/Github'><DiGit className='techLogo' /></abbr>
                     <abbr title='Docker'><FaDocker  className='techLogo' /></abbr>
-                    <abbr title='Visual Studio Code'><FaEthereum className='techLogo' /></abbr>
-                    <abbr title='Jira'><SiJira className='techLogo' /></abbr>
                     <abbr title='Clickup'><SiClickup className='techLogo' /></abbr>
                 </div>
             </div>

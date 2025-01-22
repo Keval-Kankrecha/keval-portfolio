@@ -27,7 +27,6 @@ const SkilComponent = ({id}) => {
                 <div className="skillset">
                     <abbr title='NodeJs'><DiNodejs className='techLogo' /></abbr>
                     <abbr title='NestJs'><SiNestjs className='techLogo' /></abbr>
-                    <abbr title='ReactJS'><SiReact className='techLogo' /></abbr>
                     <abbr title='MySQL'><SiMysql className='techLogo' /></abbr>
                     <abbr title='MySQL'><SiMongodb className='techLogo' /></abbr>
                 </div>

@@ -1,9 +1,10 @@
 import React from 'react';
 import { DiGit } from 'react-icons/di';
-import { SiVisualstudiocode, SiReact, SiNestjs, SiMysql, SiMongodb, SiJira, SiClickup   } from 'react-icons/si';
+import {  SiReact, SiNestjs, SiMysql, SiMongodb,  SiClickup   } from 'react-icons/si';
 import { TbBrandJavascript, TbBrandHtml5, TbBrandNodejs } from 'react-icons/tb';
 import { FaDocker, FaPython, FaEthereum } from "react-icons/fa";
 import { FaJava } from 'react-icons/fa6';
+import { DiNodejs } from "react-icons/di";
 import { BsFiletypeCss } from 'react-icons/bs';
 
 
@@ -14,17 +15,17 @@ const SkilComponent = ({id}) => {
             <div className="skill-box">
                 <h2 style={{ textAlign: 'center' }}>Languages</h2>
                 <div className="skillset">
-                    <abbr title='Java'><FaJava className='techLogo' /></abbr>
-                    <abbr title='Python'><FaPython className='techLogo' /></abbr>
-                    <abbr title='JavaScript'><TbBrandJavascript className='techLogo' /></abbr>
                     <abbr title='HTML 5'><TbBrandHtml5 className='techLogo' /></abbr>
                     <abbr title='CSS'><BsFiletypeCss className='techLogo' /></abbr>
+                    <abbr title='JavaScript'><TbBrandJavascript className='techLogo' /></abbr>
+                    <abbr title='Python'><FaPython className='techLogo' /></abbr>
+                    <abbr title='Java'><FaJava className='techLogo' /></abbr>
                 </div>
             </div>
             <div className="skill-box">
                 <h2 style={{ textAlign: 'center' }}>Frameworks & Databases</h2>
                 <div className="skillset">
-                    <abbr title='NodeJs'><TbBrandNodejs className='techLogo' /></abbr>
+                    <abbr title='NodeJs'><DiNodejs className='techLogo' /></abbr>
                     <abbr title='NestJs'><SiNestjs className='techLogo' /></abbr>
                     <abbr title='ReactJS'><SiReact className='techLogo' /></abbr>
                     <abbr title='MySQL'><SiMysql className='techLogo' /></abbr>

@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <nav className="header">
       <div className="logo">
-        <Link 
+        <Link
           activeClass="active"
           to="home"
           spy={true}
@@ -34,32 +34,39 @@ export default function Navbar() {
       >
         <li>
           <Link
-          className="navLink"
+            className="navLink"
             activeClass="active"
             to="about"
             spy={true}
             smooth={true}
             duration={30}
-          >About</Link>
+          >
+            About
+          </Link>
         </li>
         <li>
           <Link
-          className="navLink" 
+            className="navLink"
             activeClass="active"
             to="skill"
             spy={true}
             smooth={true}
-            duration={30}>Skills</Link>
+            duration={30}
+          >
+            Skills
+          </Link>
         </li>
         <li>
           <Link
-          className="navLink"
+            className="navLink"
             activeClass="active"
             to="contact"
             spy={true}
             smooth={true}
             duration={30}
-          >Contact</Link>
+          >
+            Contact
+          </Link>
         </li>
       </ul>
       <div className={click ? "social-links active" : "social-links"}>

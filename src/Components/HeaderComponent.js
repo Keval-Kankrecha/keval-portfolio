@@ -13,7 +13,7 @@ export default function HomeBanner({ id }) {
           </div>
           <ul className="dynamicTitle">
             <li>
-              +<span>Enginner</span>
+              +<span>Engineer</span>
             </li>
           </ul>
           -

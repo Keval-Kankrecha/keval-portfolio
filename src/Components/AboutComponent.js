@@ -6,15 +6,21 @@ export default function AboutComponent({ id }) {
     <div className="about-container" id={id}>
       <div className="aboutMe-text" style={{ textAlign: "justify" }}>
         <h3>Hey there, 👋</h3>
-        I'm <span> Keval </span>, and I have completed my{" "}
+        I'm <span> Keval Kankrecha</span>, and I have completed my{" "}
         <span>Bechlore of Computer Engineering </span> from Darshan University,
-        Rajkot. I am Proficient in backend technologies, I excel in architecting
-        solutions that translate end-user challenges into intuitive{" "}
-        <span>APIs</span>, seamlessly integrating them for enhanced
-        functionality. My expertise extends to <span>database</span> management,
-        ensuring efficient data handling and retrieval, complemented by a keen
-        understanding of frontend technologies for a comprehensive development
-        approach.
+        Rajkot. I am a passionate backend developer with strong experience in
+        building scalable and reliable APIs using <span>Node.js</span> and{" "}
+        <span>NestJS</span>. I have worked with both <span>relational{" "}
+        (MySQL)</span> and <span>non-relational(MongoDB)</span>
+        databases, along with practical exposure to{" "}
+        <span>RabbitMQ and Redis</span> for handling distributed systems and
+        caching.
+        <br />
+        <br />
+        Beyond backend development, I am deeply interested in Agentic AI. I have
+        worked with <span>Retrieval-Augmented Generation (RAG)</span>, GPT-based models, web
+        scraping, and vector databases like <span>Qdrant</span> to design intelligent and
+        adaptive AI agents.
         <br /> <br />
         Beyond my coding expertise, I am deeply spiritual, following the path of{" "}
         <span>Hinduism and Sanatan</span> Dharma, and actively volunteering at{" "}

@@ -82,7 +82,7 @@ export default function Navbar() {
           />
         </a>
         <a
-          href="https://github.com/KevalKankrecha-2"
+          href="https://github.com/Keval-Kankrecha"
           target="_blank"
           rel="noopener noreferrer"
         >
